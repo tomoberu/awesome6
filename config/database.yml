@@ -83,3 +83,6 @@ production:
   database: awesome6_production
   username: awesome6
   password: <%= ENV['AWESOME6_DATABASE_PASSWORD'] %>
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
